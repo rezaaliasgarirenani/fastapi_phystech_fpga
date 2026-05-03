@@ -1,0 +1,17 @@
+[MASTER]
+ignore=tests
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    too-few-public-methods,
+    duplicate-code,
+    too-many-arguments,
+    too-many-locals,
+    cyclic-import
+
+[FORMAT]
+max-line-length=100
+

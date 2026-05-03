@@ -1,0 +1,2 @@
+Link for the video: https://drive.google.com/file/d/1-nCj97w5wW99MXnaiWPsidRlWePIRE1f/view?usp=sharing
+Link to the Github repo: https://github.com/rezaaliasgarirenani/fastapi_phystech_fpga
