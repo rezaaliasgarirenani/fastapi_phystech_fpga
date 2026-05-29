@@ -1,10 +1,14 @@
 # Instructions
 
+All shell commands below are run from the repository root unless another path is shown.
+
 1) Install packages
 
 python -m pip install -r requirements.txt
 
 2) Start the server
+
+cd service
 
 python -m uvicorn app.main:app --reload
 
@@ -110,17 +114,25 @@ Click Execute
 
 13) Show the business logic file
 
-app/recommendation.py
+service/app/recommendation.py
 
 14) Run tests
+
+Open a new terminal from the repository root, then run:
+
+cd service
 
 python -m pytest
 
 15) Run pylint
 
-python -m pylint app > pylint.txt
+Open a terminal from the repository root, then run:
 
-Get-Content pylint.txt
+cd service
+
+python -m pylint app > ../pylint.txt
+
+Get-Content ../pylint.txt
 
 16) If port 8000 is busy
 

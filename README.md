@@ -41,11 +41,23 @@ Swagger is available after starting the app:
 
 http://127.0.0.1:8000/docs
 
+## Repository Structure
+
+The repository root contains only the submission-facing files.
+
+- `README.md` - project overview
+- `INSTRUCTION.md` - run, demo, test, and pylint commands
+- `LICENSE` - license file
+- `requirements.txt` - Python dependencies
+- `pylint.txt` - saved pylint output
+- `service/` - FastAPI source code, tests, and pylint config
+- `extra/` - submission links and extra course information
+
 ## How To Run And Test
 
 For the actual commands and testing steps, check:
 
-instruction.md
+INSTRUCTION.md
 
 ## Pylint
 
